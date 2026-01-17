@@ -131,11 +131,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
+    title: "Intern ",
+    company_name: "Cyber Sanskar",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "Jan 2025",
+    date: "June 2023",
     points: [
       "Developing and maintaining web applications using MERN technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
