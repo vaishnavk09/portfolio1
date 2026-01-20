@@ -4,8 +4,7 @@ Welcome to my personal portfolio website! This is a modern, interactive portfoli
 
 ## About Me
 
-I'm a passionate web developer with expertise in building responsive, user-friendly applications. I love creating interactive experiences and continuously learning new technologies.
-
+I'm a passionate web developer with expertise in reliable scalable applications. I love creating interactive experiences and continuously learning new technologies.
 ## Features
 
 - **Interactive 3D Elements** - Stunning visual effects with Three.js
@@ -23,80 +22,14 @@ I'm a passionate web developer with expertise in building responsive, user-frien
 - **Animations:** Framer Motion
 - **Email Service:** EmailJS
 
-## Project Structure
-
-```
-src/
-├── components/          # React components
-│   ├── About.jsx       # About section
-│   ├── Contact.jsx     # Contact form
-│   ├── Experience.jsx  # Work experience
-│   ├── Hero.jsx        # Hero section
-│   ├── Navbar.jsx      # Navigation
-│   ├── Works.jsx       # Portfolio projects
-│   └── canvas/         # 3D components
-├── assets/             # Images and static files
-├── constants/          # App constants
-├── hoc/                # Higher-order components
-└── utils/              # Utility functions
-```
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/vaishnavk09/portfolio1.git
-
-# Navigate to the project
-cd portfolio1
-
-# Install dependencies
-npm install
-```
-
-### Development
-
-```bash
-# Start the development server
-npm run dev
-```
-
-The application will open at `http://localhost:5173`
-
-### Build
-
-```bash
-# Create a production build
-npm run build
-
-# Preview the production build
-npm run preview
-```
-
-## Sections
-
-- **Hero** - Eye-catching introduction with 3D elements
-- **About** - Learn more about my background and interests
-- **Tech Stack** - Technologies I work with
-- **Experience** - Professional work history
-- **Works** - Featured projects and portfolio
-- **Feedbacks** - Testimonials
-- **Contact** - Get in touch with me
 
 ## Contact
 
 Feel free to reach out to me for collaboration or inquiries:
 
-- **Email:** [Your email here]
+- **Email:** vaishnavk9420@gmail.com
 - **GitHub:** [github.com/vaishnavk09](https://github.com/vaishnavk09)
-- **LinkedIn:** [Your LinkedIn profile]
+- **LinkedIn:** [linkedin.com/in/connect-with-vaishnav](https://www.linkedin.com/in/connect-with-vaishnav)
 
 ## License
 
