@@ -46,11 +46,11 @@ const Navbar = () => {
           }}
         >
          
-            <img src={logo} alt="logo" className="w-14 h-16 object-cover" />
+            {/* <img src={logo} alt="logo" className="w-14 h-16 object-cover" /> */}
           
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Mustaqeem &nbsp;
-            <span className="sm:block hidden"> | Devxora</span>
+            Vaishnav Kedar &nbsp;
+            
           </p>
         </Link>
 
