@@ -5,23 +5,6 @@ Welcome to my personal portfolio website! This is a modern, interactive portfoli
 ## About Me
 
 I'm a passionate web developer with expertise in reliable scalable applications. I love creating interactive experiences and continuously learning new technologies.
-## Features
-
-- **Interactive 3D Elements** - Stunning visual effects with Three.js
-- **Responsive Design** - Works seamlessly across all devices
-- **Modern UI/UX** - Built with Tailwind CSS for beautiful styling
-- **Smooth Animations** - Framer Motion for engaging transitions
-- **Dynamic Content** - Showcase of projects, skills, and experience
-
-## Tech Stack
-
-- **Frontend Framework:** React
-- **Build Tool:** Vite
-- **Styling:** Tailwind CSS, PostCSS
-- **3D Graphics:** Three.js
-- **Animations:** Framer Motion
-- **Email Service:** EmailJS
-
 
 ## Contact
 
