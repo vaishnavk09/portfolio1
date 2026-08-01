@@ -20,11 +20,16 @@ import {
   github,
   Three3js,
   aws,
+  docker,
+  vyomx,
+  cybersanskar,
+  zen,
+  bizmind,
+  kidslearning,
   project2,
   project1,
   project3,
 } from "../assets";
-import tekisky from '../assets/company/tekisky.png';
 // import project2 from '../assets/project2.png'
 
 export const navLinks = [
@@ -44,19 +49,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "Software Development Engineer",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Full-Stack Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "GenAI Application Developer",
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    title: "Cloud & API Integrator",
     icon: creator,
   },
 ];
@@ -73,6 +78,10 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
   },
 
   {
@@ -108,6 +117,10 @@ const technologies = [
     icon: Three3js,
   },
   {
+    name: "Docker",
+    icon: docker,
+  },
+  {
     name: "git",
     icon: git,
   },
@@ -130,17 +143,28 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Intern ",
-    company_name: "Cyber Sanskar",
-    icon: tekisky,
+   {
+    title: "Software Engineer Intern",
+    company_name: "VyomX",
+    icon: vyomx,
     iconBg: "#383E56",
-    date: "June 2023",
+    date: "Feb 2026 - May 2026",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Architected and delivered 8+ end-to-end modules for a children's EdTech platform, including Flashcards, Phonics, Games, Drawing Canvas, and Storytelling.",
+      "Designed and developed an admin dashboard with CRUD operations for users, books, and subscriptions.",
+      "Integrated cloud storage for images, PDFs, and audio assets to streamline content management workflows.",
+      "Improved platform quality with agile collaboration, cross-team coordination, and timely bug fixes.",
+    ],
+  },
+  {
+    title: "Intern",
+    company_name: "Cyber Sanskar",
+    icon: cybersanskar,
+    iconBg: "#383E56",
+    date: "Jun 2023 - Jul 2023",
+    points: [
+      "Developed an Android mobile app for a general store using Java, improving inventory tracking and user usability.",
+      "Gained hands-on experience with agile workflows, REST API integration, and mobile application architecture.",
     ],
   },
 ];
@@ -148,106 +172,110 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Rahul Iyer",
-    designation: "Export AutoParts",
-    company: "GearXpert",
+      "Delivered 8+ production modules in a single internship cycle while maintaining 100% on-time delivery.",
+    name: "Execution",
+    designation: "Impact",
+    company: "VyomX",
     image:
       "https://www.stglawfirm.com/wp-content/uploads/2022/11/Rahul-Iyer-Attorney-Profile.png.webp",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
+      "Built and deployed GenAI solutions with LangChain, RAG pipelines, and practical dashboards for real-world decision making.",
+    name: "Innovation",
+    designation: "Focus",
+    company: "Projects",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Kavita Nair",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Strong academic track record with a 9/10 CGPA and certifications in Oracle OCI GenAI and Databricks Generative AI.",
+    name: "Growth",
+    designation: "Learning",
+    company: "Academics",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "GareXpert",
+    name: "ZEN - Mental Health Support App",
     description:
-      "Web-based platform that enables users to browse, purchase, and manage auto parts from various suppliers, ensuring a seamless and reliable shopping experience.",
+      "Production-ready RAG mental health assistant using LangChain and Llama 3.70b with conversational memory, JWT auth, and MongoDB-backed secure data storage.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "GSAP",
+        name: "langchain",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "llama3",
         color: "orange-text-gradient",
       },
       {
-        name: "EmailJS",
-        color: "-text-gradient",
+        name: "chart.js",
+        color: "pink-text-gradient",
       },
     ],
-    image: project2,
-    source_code_link: "https://github.com/",
+    image: zen,
+    source_code_link: "https://github.com/vaishnavk09/Zen-v2",
   },
   {
-    name: "TekiskyMart",
+    name: "BizMind AI",
     description:
-      "An eCommerce platform offering a seamless shopping experience with a wide range of products, secure payments, and fast delivery.",
+      "Autonomous BI agent that converts CSV sales data into business insights using a LangChain multi-tool workflow with trend analysis, anomaly detection, forecasting, and RAG.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "Node.js",
+        name: "langchain",
         color: "green-text-gradient",
       },
       {
-        name: "Express",
+        name: "faiss",
         color: "pink-text-gradient",
       },
       {
-        name: "MongoDB",
+        name: "streamlit",
         color: "green-text-gradient",
       },
       {
-        name: "taildwind",
+        name: "plotly",
         color: "orange-text-gradient",
       },
     ],
-    image: project1,
-    source_code_link: "https://tekiskymart.com/",
+    image: bizmind,
+    source_code_link: "https://github.com/vaishnavk09/bizzmind-ai",
   },
   {
-    name: "Softcadia",
+    name: "Kids Learning Platform Modules at VyomX",
     description:
-      "A job portal connecting job seekers with employers, offering seamless job search, application tracking, and recruitment solutions.",
+      "Built scalable learning modules and an operational admin panel with cloud media handling, helping accelerate shipping velocity and platform reliability.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "Node.js",
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
-        name: "Express",
+        name: "express",
         color: "pink-text-gradient",
       },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
     ],
-    image: project3,
-    source_code_link: "https://softcadia.tekisky.com/",
+    image: kidslearning,
+    source_code_link: "https://github.com/vaishnavk09",
   },
 ];
 

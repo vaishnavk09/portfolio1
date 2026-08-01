@@ -47,11 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in JavaScript and
-        Python, and expertise in frameworks like React, Node.js,
-        Three.js, Exress.js, MongoDB. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm an Information Technology undergraduate at IIIT Pune (CGPA 9/10)
+        and a software developer focused on full-stack and GenAI products. I
+        build end-to-end applications using React, Node.js, Express, Flask,
+        MongoDB, and SQL, and I enjoy turning complex ideas into practical,
+        user-friendly systems. Recently, I delivered 8+ production modules at
+        VyomX and built RAG-based AI assistants and business intelligence
+        tools. I'm also certified in Oracle Cloud Infrastructure GenAI and
+        Databricks Generative AI.
       </motion.p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center  gap-10">

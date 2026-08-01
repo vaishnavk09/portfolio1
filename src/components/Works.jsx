@@ -3,12 +3,10 @@ import { Tilt } from 'react-tilt'
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { live } from "../assets";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-import { Link } from "react-router-dom";
 
 const ProjectCard = ({
   index,
@@ -95,9 +93,7 @@ const Works = () => {
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-5">
         {projects.map((project, index) => (
-          <Link >
-            <ProjectCard key={`project-${index}`} index={index} {...project} />
-          </Link>
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
     </>

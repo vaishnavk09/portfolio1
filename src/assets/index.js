@@ -24,6 +24,11 @@ import mui from "./skills/mui.png"
 import express from "./skills/express.png"
 import mysql from "./skills/mysql.png"
 import aws from "./skills/aws.png"
+import vyomx from "./company/VYOMX.webp";
+import cybersanskar from "./company/cybersanskar.webp";
+import zen from "./Zen.png";
+import bizmind from "./Bizmind.png";
+import kidslearning from "./kidslearning.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -52,6 +57,11 @@ export {
   express,
   mysql,
   aws,
+  vyomx,
+  cybersanskar,
+  zen,
+  bizmind,
+  kidslearning,
   Three3js,
   menu,
   close,

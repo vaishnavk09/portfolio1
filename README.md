@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This is a modern, interactive portfoli
 
 ## About Me
 
-I'm a passionate web developer with expertise in reliable scalable applications. I love creating interactive experiences and continuously learning new technologies.
+I'm Vaishnav Kedar, a Software Development Engineer focused on full-stack and GenAI applications. I build reliable, scalable systems using React, Node.js, Express, Flask, MongoDB, and SQL, and I enjoy creating user-centric products backed by practical AI.
 ## Features
 
 - **Interactive 3D Elements** - Stunning visual effects with Three.js
@@ -28,8 +28,15 @@ I'm a passionate web developer with expertise in reliable scalable applications.
 Feel free to reach out to me for collaboration or inquiries:
 
 - **Email:** vaishnavk9420@gmail.com
+- **Phone:** +91 9890082615
 - **GitHub:** [github.com/vaishnavk09](https://github.com/vaishnavk09)
 - **LinkedIn:** [linkedin.com/in/connect-with-vaishnav](https://www.linkedin.com/in/connect-with-vaishnav)
+
+## Highlights
+
+- **Work Experience:** Software Engineer Intern at VyomX (Feb 2026 - May 2026), Intern at Cyber Sanskar (Jun 2023 - Jul 2023)
+- **Education:** B.E. in Information Technology, IIIT Pune (Expected May 2027, CGPA 9/10)
+- **Certifications:** Oracle Cloud Infrastructure 2025 GenAI Certified Professional, Databricks Generative AI Fundamentals
 
 ## License
 
