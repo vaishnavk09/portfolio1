@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This is a modern, interactive portfoli
 
 ## About Me
 
-I'm Vaishnav Kedar, a Software Development Engineer focused on full-stack and GenAI applications. I build reliable, scalable systems using React, Node.js, Express, Flask, MongoDB, and SQL, and I enjoy creating user-centric products backed by practical AI.
+I'm a passionate web developer with expertise in reliable scalable applications. I love creating interactive experiences and continuously learning new technologies.
 ## Features
 
 - **Interactive 3D Elements** - Stunning visual effects with Three.js
